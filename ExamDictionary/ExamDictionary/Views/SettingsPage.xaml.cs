@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 using Xamarin.Forms;
+using Xamarin.Forms.PlatformConfiguration;
 using Xamarin.Forms.Xaml;
 
 namespace ExamDictionary.Views
@@ -16,5 +17,10 @@ namespace ExamDictionary.Views
         {
             InitializeComponent();
         }
-    }
+
+       /* intent.button.Click += delegate {
+       var uri = Android.Net.Uri.Parse("http://www.xamarin.com");
+        var intent = new Intent(Intent.ActionView, uri);
+       StartActivity(intent);*/
+    };
 }

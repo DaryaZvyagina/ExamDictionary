@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ExamDictionary.Views.TranslatePage"
-             Title="Перевод">
+             Icon="translate.png">
     <ScrollView Padding="10,20,20,10">
         <StackLayout>
             <Label x:Name="header" Text="Выберите язык" />
