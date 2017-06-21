@@ -14,7 +14,9 @@ namespace ExamDictionary
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new MainPage());
+            var navigationPage = new NavigationPage(new MainPage());
+            navigationPage.BarTextColor = Color.Black;
+            MainPage = navigationPage;
         }
 
         protected override void OnStart()
