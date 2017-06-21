@@ -3,11 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Xamarin.Forms;
 
-namespace ExamDictionary
+using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
+
+namespace ExamDictionary.Views
 {
-    public partial class MainPage : ContentPage
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class MainPage : TabbedPage
     {
         public MainPage()
         {
