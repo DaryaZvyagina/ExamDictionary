@@ -65,13 +65,13 @@ namespace ExamDictionary.Views
 
                 Label label2 = new Label()
                 {
-                    TextColor = Color.FromHex("#ffffff"),
+                    TextColor = Color.FromHex("#000000"),
                     FontSize = Device.GetNamedSize(NamedSize.Medium, typeof(Label))
                 };
 
                 Label label3 = new Label()
                 {
-                    TextColor = Color.FromHex("#DEDEDE"),
+                    TextColor = Color.FromHex("#8a8a8a"),
                 };
 
                 Binding binding1 = new Binding { Path = "TranslatedString", Mode = BindingMode.OneWay };
@@ -212,7 +212,7 @@ namespace ExamDictionary.Views
 
                 StackLayout stackLayout = new StackLayout()
                 {
-                    BackgroundColor = Color.FromHex("#FF9B2E"),
+                    BackgroundColor = Color.FromHex("#EEEEEE"),
                     Children = { label2, label3 }
                 };
 
